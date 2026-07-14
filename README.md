@@ -31,6 +31,10 @@ Following enterprise standards, the test scripts are organized by client folders
 ├── 📁 core-keywords/              # Common UI interactions and API keywords
 │   └── 📄 common.resource         # Reusable behaviors across multiple clients
 │
+├── 📁 dio/                        # Behavior Driven UI Validation
+│   └── 📁 tests/
+│       └── 📄 profile.robot       # BDD scenarios intercepting relative asset routes
+│
 └── 📁 tavardt-ui/                 # Web Front-End testing
     └── 📁 tests/
         └── 📄 login_flow.robot    # BDD scenarios and high-level test cases
@@ -113,6 +117,10 @@ Seguindo o padrão corporativo, os testes aqui são organizados por pastas de cl
 │
 ├── 📁 core-keywords/              # Keywords comuns de UI e API
 │   └── 📄 common.resource         # Comportamentos reaproveitáveis
+│
+├── 📁 dio/                        # Validação de UI Orientada a Comportamento
+│   └── 📁 tests/
+│       └── 📄 profile.robot       # Cenários BDD interceptando rotas relativas
 │
 └── 📁 tavardt-ui/                 # Testes de interface web
     └── 📁 tests/
