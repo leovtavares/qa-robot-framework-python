@@ -28,16 +28,13 @@ Following enterprise standards, the test scripts are organized by client folders
 │   └── 📁 tests/
 │       └── 📄 add_to_cart_flow.robot # BDD scenarios
 │
-├── 📁 core-keywords/              # Common UI interactions and API keywords
-│   └── 📄 common.resource         # Reusable behaviors across multiple clients
-│
 ├── 📁 dio/                        # Behavior Driven UI Validation
 │   └── 📁 tests/
 │       └── 📄 profile.robot       # BDD scenarios intercepting relative asset routes
 │
-└── 📁 tavardt-ui/                 # Web Front-End testing
+└── 📁 tavardt/                    # Web Front-End testing
     └── 📁 tests/
-        └── 📄 login_flow.robot    # BDD scenarios and high-level test cases
+        └── 📄 tavardt_ui.robot    # BDD scenarios and high-level test cases
 ```
 
 ## Live Quality Dashboard
@@ -115,16 +112,13 @@ Seguindo o padrão corporativo, os testes aqui são organizados por pastas de cl
 │   └── 📁 tests/
 │       └── 📄 add_to_cart_flow.robot # Cenários BDD
 │
-├── 📁 core-keywords/              # Keywords comuns de UI e API
-│   └── 📄 common.resource         # Comportamentos reaproveitáveis
-│
 ├── 📁 dio/                        # Validação de UI Orientada a Comportamento
 │   └── 📁 tests/
 │       └── 📄 profile.robot       # Cenários BDD interceptando rotas relativas
 │
-└── 📁 tavardt-ui/                 # Testes de interface web
+└── 📁 tavardt/                    # Testes de interface web
     └── 📁 tests/
-        └── 📄 login_flow.robot    # Cenários BDD e casos de teste de alto nível
+        └── 📄 tavardt_ui.robot    # Cenários BDD e casos de teste de alto nível
 ```
 
 ## Dashboard de Qualidade (Ao Vivo)
